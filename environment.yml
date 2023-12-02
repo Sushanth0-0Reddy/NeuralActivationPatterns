@@ -1,0 +1,19 @@
+name: nap
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - pip
+  - pip:
+    - tensorflow
+    - hdbscan==0.8.27
+    - numpy
+    - matplotlib
+    - plotly
+    - pandas
+    - ipykernel
+    - tensorflow-datasets
+    - pyarrow 
+    - tables
+    - luna-fviz==0.3.0
